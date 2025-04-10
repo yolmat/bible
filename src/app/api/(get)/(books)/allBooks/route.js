@@ -1,5 +1,5 @@
-import { prisma } from "../../../../../services/prisma.js"
-import { NextResponse } from "next/server";
+import { prisma } from '../../../../../services/prisma.js'
+import { NextResponse } from 'next/server';
 
 export async function GET() {
 

@@ -1,14 +1,20 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @font-face {
     font-family: ItcBook;
-    src: url("../services/fonts/ITCBenguiatStdBookCn.OTF") format("OTF");
+    src: url('../services/fonts/ITCBenguiatStdBookCn.OTF') format('.OTF');
 }
 
 @theme {
     --color-main: #2A3140;
     --color-gradientHeaderStart: #7F9BBF;
     --color-gradientHeaderEnd: #2A3140;
-    --font-main: "ItcBook";
+
+    --color-gradientButtonStart: #2C3740;
+    --color-gradientButtonEnd: #728EA6;
+
+    --font-main: 'ItcBook';
     --text-base: 3rem;
+    --text-base-height: 10rem;
+    --text-button: 2rem;
 }
