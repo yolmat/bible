@@ -8,7 +8,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body className="bg-black text-white">{children}</body>
+      <body className="bg-main text-white font-main">
+        <header className="bg-linear-to-b from-gradientHeaderStart/40 from-30% to-gradientHeaderEnd/100 to-100% w-screen flex flex-row justify-center py-5">
+          <h1 className="basis-1 text-center text-base/9">THE BIBLE</h1>
+        </header>
+        {children}
+      </body>
     </html>
   );
 }
